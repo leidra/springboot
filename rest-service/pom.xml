@@ -11,6 +11,7 @@
 	</parent>
 	<modules>
 		<module>entities</module>
+		<module>shared</module>
 		<module>services</module>
 		<module>dataaccess</module>
 		<module>facade</module>
