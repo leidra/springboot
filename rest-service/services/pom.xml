@@ -13,7 +13,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>net.leidra</groupId>
-			<artifactId>entities</artifactId>
+			<artifactId>dataaccess</artifactId>
 			<version>${project.parent.version}</version>
 		</dependency>
 		<dependency>
@@ -34,14 +34,4 @@
 			<url>https://repo.spring.io/libs-release</url>
 		</pluginRepository>
 	</pluginRepositories>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
-
 </project>
