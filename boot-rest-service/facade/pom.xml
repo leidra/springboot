@@ -6,7 +6,7 @@
 	<packaging>jar</packaging>
 	<parent>
 		<groupId>net.leidra</groupId>
-		<artifactId>rest-service</artifactId>
+		<artifactId>boot-rest-service</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<dependencies>
@@ -27,6 +27,12 @@
 	</dependencies>
 	<build>
 		<plugins>
+			<plugin>
+				<artifactId>maven-war-plugin</artifactId>
+				<configuration>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+				</configuration>
+			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
